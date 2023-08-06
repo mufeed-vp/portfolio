@@ -1,9 +1,9 @@
 [
   {
-    "title": "Bike Buddy",
+    "title": "Imentiv.ai",
     "image": "./projectImages/bike.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
-    "technologies": "Leaflet | jQuery | Bootstrap",
+    "description": "Imentiv AI is an advanced Emotion AI tool that utilizes machine learning models to analyze actors' emotions in a video. By detecting faces and emotions, it provides a deeper understanding of the emotional impact of your content. Understanding the emotions of the actors or the story enables you to anticipate how your audience will perceive your content. Imentiv AI's video emotion analysis solution helps you to create emotionally engaging content.",
+    "technologies": "ML/AI | Nextjs | scss | Python | FastAPI | Firebase",
     "github": "https://github.com/mdyeates/bike-buddy",
     "deployed": "https://norrinradd8.github.io/bike_buddy/",
     "bgcolor": "#f37737",
@@ -13,7 +13,7 @@
     "title": "Weather",
     "image": "./projectImages/weather.png",
     "technologies": "jQuery | HTML | CSS",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
+    "description": " Imentiv AI is an advanced Emotion AI tool that utilizes machine learning models to analyze actors' emotions in a video. By detecting faces and emotions, it provides a deeper understanding of the emotional impact of your content. Understanding the emotions of the actors or the story enables you to anticipate how your audience will perceive your content. Imentiv AI's video emotion analysis solution helps you to create emotionally engaging content.",
     "github": "https://github.com/mdyeates/weather-app",
     "deployed": "https://mdyeates.github.io/weather-app/",
     "bgcolor": "#29cbe0",

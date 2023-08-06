@@ -52,7 +52,7 @@ const Landing = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Software Engineer")
+                .typeString("I'm a Full Stack Developer.")
                 .pauseFor(1500)
                 .deleteAll()
                 .typeString("Code. ")
@@ -74,7 +74,7 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Mufeed V P"
         />
       </div>
       <SocialIcons />
