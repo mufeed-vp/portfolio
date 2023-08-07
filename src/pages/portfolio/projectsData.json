@@ -1,64 +1,22 @@
 [
   {
     "title": "Imentiv.ai",
-    "image": "./projectImages/bike.png",
+    "image": "./projectImages/imentiv.png",
     "description": "Imentiv AI is an advanced Emotion AI tool that utilizes machine learning models to analyze actors' emotions in a video. By detecting faces and emotions, it provides a deeper understanding of the emotional impact of your content. Understanding the emotions of the actors or the story enables you to anticipate how your audience will perceive your content. Imentiv AI's video emotion analysis solution helps you to create emotionally engaging content.",
-    "technologies": "ML/AI | Nextjs | scss | Python | FastAPI | Firebase",
-    "github": "https://github.com/mdyeates/bike-buddy",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "technologies": "Nextjs | scss | Python | FastAPI | Firebase",
+    "linkName": "imentiv.ai",
+    "deployed": "https://imentiv.ai/",
     "bgcolor": "#f37737",
     "id": "1"
   },
   {
-    "title": "Weather",
-    "image": "./projectImages/weather.png",
-    "technologies": "jQuery | HTML | CSS",
-    "description": " Imentiv AI is an advanced Emotion AI tool that utilizes machine learning models to analyze actors' emotions in a video. By detecting faces and emotions, it provides a deeper understanding of the emotional impact of your content. Understanding the emotions of the actors or the story enables you to anticipate how your audience will perceive your content. Imentiv AI's video emotion analysis solution helps you to create emotionally engaging content.",
-    "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "title": "Psc Challenger",
+    "image": "./projectImages/challenger.jpg",
+    "technologies": "Mongodb | ExpressJs | Reactjs | Nodejs",
+    "description": "A live quiz app where you compete with an online opponent by answering questions in real-time. It utilized web sockets and had a clever computer bot logic so that the users could play even when there is no one else online. 10K games are being played everyday on this platform and 4.6 review on playstore.",
+    "linkName": "Psc Challenger",
+    "deployed": "https://www.keralapsc.app/",
     "bgcolor": "#29cbe0",
     "id": "2"
-  },
-  {
-    "title": "Team",
-    "image": "./projectImages/team.png",
-    "technologies": "JS | Node | Bootstrap | OOP | TTD",
-    "description": "Team Dashboard is a Node command-line application that takes in information about employees to generate a dynamic HTML web page.",
-    "github": "https://github.com/mdyeates/team-dashboard",
-    "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
-    "bgcolor": "#6c4bf4",
-    "id": "3"
-  },
-  {
-    "title": "Quiz",
-    "image": "./projectImages/quiz.png",
-    "technologies": "JS | HTML | CSS",
-    "description": "A quiz app on the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and the user will have a time limit of 50 seconds. The remaining time will determine their score at the end. The user will be penalised by 10 seconds for every incorrect answer.",
-    "github": "https://github.com/mdyeates/coding-quiz",
-    "deployed": "https://mdyeates.github.io/coding-quiz/",
-    "bgcolor": "#f85781",
-    "id": "4"
-  },
-
-  {
-    "title": "P1",
-    "image": "./projectImages/P1.png",
-    "description": "Welcome to P1, your virtual pit stop for the latest updates and standings in the world of F1. But that's not all—we've also got the ultimate card game where driver knowledge is the key to victory.",
-    "technologies": "React | Framer | CSS | Bootstrap | Node",
-    "github": "https://github.com/Jake-W95/P1",
-    "deployed": "https://p1-heroes.netlify.app/",
-    "bgcolor": "#ffcc33",
-    "id": "1"
-  },
-
-  {
-    "title": "Planner",
-    "image": "./projectImages/planner.png",
-    "technologies": "JS | Bootstrap | Moment",
-    "description": "Make every hour count with this simple Daily Planner App. You can keep track of all important appointments during a normal 9-5 work day!",
-    "github": "https://github.com/mdyeates/daily-planner",
-    "deployed": "https://mdyeates.github.io/daily-planner/",
-    "bgcolor": "#3e67ff",
-    "id": "6"
   }
 ]
