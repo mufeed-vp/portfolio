@@ -111,12 +111,12 @@
     height: 330px;
     z-index: 50;
     border-radius: 0;
-    padding: 6px;
+    /* padding: 6px; */
+    box-shadow: rgba(0, 158, 102, 1) 0px 5px 15px 0px;
   }
 
   .personalImage {
     height: 330px;
-
     display: flex;
     align-items: center;
     justify-content: center;
