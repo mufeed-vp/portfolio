@@ -1,11 +1,9 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/aboutme.png";
 import { motion } from "framer-motion";
-import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-// import resume from "../pages/about/michael-yeates-resume.pdf";
 
-const AboutMe = ({ name, email, location, availability, brand }) => {
+const AboutMe = ({ name, email, location, brand, contactNumber, currentLocation }) => {
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -17,151 +15,72 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(false);
   }, [downloading]);
 
-  // const handleDownload = () => {
-  //   setDownloading(true);
-  //   const link = document.createElement("a");
-  //   link.href = resume;
-  //   link.download = "Michael-Yeates-Resume.pdf";
-  //   link.onload = () => {
-  //     link.remove();
-  //     setDownloading(false);
-  //   };
-  //   document.body.appendChild(link);
-  //   link.click();
-  // };
-
   return (
     <>
-    {/* <div className="row">
-      <motion.div
-        className="personalImage col-12 col-lg-4"
-        ref={ref}
-        initial={{ x: "-10vw", opacity: 0 }}
-        animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <img src={aboutMeImg} alt={name} />
-      </motion.div>
-      <motion.div
-        className="personalInfo col-12 col-lg-8"
-        ref={ref}
-        initial={{ x: "10vw", opacity: 0 }}
-        animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-      >
-        <div className="contentContainer">
-          <h4>Nice to meet you</h4>
-          <h5>I'm a Software Engineer who crafts amazing digital experiences!</h5>
-          <div className="contentDescription">
-            <p>{brand}</p>
-          </div>
-          <div className="infoContainer">
-            <div className="row">
-              <div className="col-12 col-md-6 info">
-                <span>Name:</span>
-                <p>Mufeed V P</p>
+      <div className="aboutContainer container">
+        <div className="row">
+          <motion.div
+            className="personalImage col-12 col-lg-4"
+            ref={ref}
+            initial={{ x: "-10vw", opacity: 0 }}
+            animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+          >
+            <img src={aboutMeImg} alt={name} />
+          </motion.div>
+          <motion.div
+            className="personalInfo col-12 col-lg-8"
+            ref={ref}
+            initial={{ x: "10vw", opacity: 0 }}
+            animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+          >
+            <div className="contentContainer">
+              <h4>Nice to meet you</h4>
+              <h5>I'm a Software Engineer who crafts amazing digital experiences!</h5>
+              <div className="contentDescription">
+                <p>{brand}</p>
               </div>
-              <div className="col-12 col-md-6 info">
-                <span>Email:</span>
-                <p>
-                  <a href={`mailto:${email}`}>{email}</a>
-                </p>
+              <div className="infoContainer">
+                <div className="row">
+                  <div className="col-12 col-md-6 info">
+                    <span>Name:</span>
+                    <p>Mufeed V P</p>
+                  </div>
+                  <div className="col-12 col-md-6 info">
+                    <span>Email:</span>
+                    <p>
+                      <a href={`mailto:${email}`}>{email}</a>
+                    </p>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-12 col-md-6 info">
+                    <span>Contact Number:</span>
+                    <p>{contactNumber}</p>
+                  </div>
+                  <div className="col-12 col-md-6 info">
+                    <span>Whatsapp:</span>
+                    <p>
+                      <a href='https://api.whatsapp.com/send?phone=9746375929'>+91 9746375929</a>
+                    </p>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-12 col-md-6 info">
+                    <span>Location:</span>
+                    <p>{location}</p>
+                  </div>
+                  <div className="col-12 col-md-6 info">
+                    <span>Current Location:</span>
+                    <p>{currentLocation}</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-12 col-md-6 info">
-                <span>Location:</span>
-                <p>{location}</p>
-              </div>
-              <div className="col-12 col-md-6 info">
-                <span>Availability:</span>
-                <p>{availability}</p>
-              </div>
-            </div>
-          </div>
-          {/* <div className="buttonContainer"> */}
-            {/* <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}> */}
-              {/* {downloading ? "Downloading..." : "Download Resume"} */}
-            {/* </button>{" "} */}
-            {/* <SocialIcons /> */}
-          {/* </div> */}
-        {/* </div> */}
-      {/* </motion.div> */}
-    {/* </div> */} 
-    <div className="aboutContainer container">
-      <div className="row">
-        <motion.div
-          className="personalImage col-12 col-lg-4"
-          ref={ref}
-          initial={{ x: "-10vw", opacity: 0 }}
-          animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
-        >
-          <img src={aboutMeImg} alt={name} />
-        </motion.div>
-        <motion.div
-          className="personalInfo col-12 col-lg-8"
-          ref={ref}
-          initial={{ x: "10vw", opacity: 0 }}
-          animate={inView ? { x: 0, opacity: 1 } : { x: "10vw", opacity: 0 }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
-        >
-          <div className="contentContainer">
-            <h4>Nice to meet you</h4>
-            <h5>I'm a Software Engineer who crafts amazing digital experiences!</h5>
-            <div className="contentDescription">
-              <p>{brand}</p>
-            </div>
-            <div className="infoContainer">
-              <div className="row">
-                <div className="col-12 col-md-6 info">
-                  <span>Name:</span>
-                  <p>Mufeed V P</p>
-                </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Email:</span>
-                  <p>
-                    <a href={`mailto:${email}`}>{email}</a>
-                  </p>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12 col-md-6 info">
-                  <span>Contact Number:</span>
-                  <p>+971 555292844</p>
-                </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Whatsapp:</span>
-                  <p>
-                    <a href='https://api.whatsapp.com/send?phone=9746375929'>+91 9746375929</a>
-                  </p>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12 col-md-6 info">
-                  <span>Location:</span>
-                  <p>{location}</p>
-                </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Current Location:</span>
-                  <p>Dubai</p>
-                </div>
-                {/* <div className="col-12 col-md-6 info">
-                  <span>Availability:</span>
-                  <p>{availability}</p>
-                </div>
-              </div> */}
-            </div>
-            {/* <div className="buttonContainer">
-              <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                {downloading ? "Downloading..." : "Download Resume"}
-              </button>{" "}
-              <SocialIcons />
-            </div> */}
-          </div></div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
-    </div>
     </>
   );
 };

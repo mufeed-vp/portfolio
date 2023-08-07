@@ -18,17 +18,19 @@ const AnimatedRoutes = ({ personalDetails }) => {
           <About
             name={personalDetails.name}
             location={personalDetails.location}
+            currentLocation={personalDetails.currentLocation}
             email={personalDetails.email}
             availability={personalDetails.availability}
             brand={personalDetails.brand}
+            contactNumber={personalDetails.contactNumber}
           />
         }
       />
-      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/projects" element={<Portfolio />} />
       <Route
         path="/contact"
         element={
-          <Contact name={personalDetails.name} location={personalDetails.location} email={personalDetails.email} />
+          <Contact name={personalDetails.name} location={personalDetails.location} currentLocation={personalDetails.currentLocation} email={personalDetails.email} contactNumber={personalDetails.contactNumber} />
         }
       />
       <Route path="/page-not-found" element={<PageNotFound />} />

@@ -1,7 +1,7 @@
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
-const ContactInfo = ({ name, email, location }) => {
+const ContactInfo = ({ name, email, location, contactNumber, currentLocation }) => {
   const [ref, inView] = useInView({
     threshold: 0,
     triggerOnce: true,
@@ -36,6 +36,28 @@ const ContactInfo = ({ name, email, location }) => {
             <div className="mediaWrap">
               <h6 className="infoType">Location</h6>
               <span className="infoValue">{location}</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="personalContactInfo">
+            <span className="infoIcon">
+              <i className="icon fa-solid fa-location-pin "></i>{" "}
+            </span>
+            <div className="mediaWrap">
+              <h6 className="infoType">Current Location</h6>
+              <span className="infoValue">{currentLocation}</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="personalContactInfo">
+            <span className="infoIcon">
+              <i className="icon fa-solid fa-mobile "></i>{" "}
+            </span>
+            <div className="mediaWrap">
+              <h6 className="infoType">Contact number</h6>
+              <span className="infoValue">{contactNumber}</span>
             </div>
           </div>
         </li>

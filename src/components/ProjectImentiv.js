@@ -1,4 +1,4 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/aboutme.png";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
@@ -17,18 +17,6 @@ const ProjectImentiv = ({ name, email, location, availability, brand }) => {
     setDownloading(false);
   }, [downloading]);
 
-  // const handleDownload = () => {
-  //   setDownloading(true);
-  //   const link = document.createElement("a");
-  //   link.href = resume;
-  //   link.download = "Michael-Yeates-Resume.pdf";
-  //   link.onload = () => {
-  //     link.remove();
-  //     setDownloading(false);
-  //   };
-  //   document.body.appendChild(link);
-  //   link.click();
-  // };
 
   return (
     <>
