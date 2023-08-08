@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ec44e513.css",
-    "main.js": "/portfolio/static/js/main.295f9996.js",
+    "main.js": "/portfolio/static/js/main.ac7ee010.js",
     "static/media/aboutme.png": "/portfolio/static/media/aboutme.02c33acf4e459bc16a71.png",
     "static/media/me.jpg": "/portfolio/static/media/me.319ff193ba98331b11a0.jpg",
     "static/media/mufi-logo.svg": "/portfolio/static/media/mufi-logo.80db4f9895b3b1ea96190aabe0d56ec2.svg",
@@ -9,10 +9,10 @@
     "static/media/close.svg": "/portfolio/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
     "static/media/open.svg": "/portfolio/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
     "main.ec44e513.css.map": "/portfolio/static/css/main.ec44e513.css.map",
-    "main.295f9996.js.map": "/portfolio/static/js/main.295f9996.js.map"
+    "main.ac7ee010.js.map": "/portfolio/static/js/main.ac7ee010.js.map"
   },
   "entrypoints": [
     "static/css/main.ec44e513.css",
-    "static/js/main.295f9996.js"
+    "static/js/main.ac7ee010.js"
   ]
 }
