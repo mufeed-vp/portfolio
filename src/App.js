@@ -6,7 +6,7 @@ function App() {
     name: "Mufeed V P",
     location: "Kochi, India",
     currentLocation: "Dubai",
-    email: "mufeedvp93@gmail.com.com",
+    email: "mufeedpeedikayil@gmail.com",
     availability: "Open for work",
     contactNumber: "+971 555292844",
     brand:
