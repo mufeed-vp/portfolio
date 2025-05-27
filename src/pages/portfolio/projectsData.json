@@ -1,4 +1,5 @@
 [
+
   {
     "title": "Imentiv.ai",
     "image": "./projectImages/imentiv.png",
@@ -18,5 +19,15 @@
     "deployed": "https://www.keralapsc.app/",
     "bgcolor": "#29cbe0",
     "id": "2"
+  },
+  {
+    "title": "Ikkxa",
+    "image": "./projectImages/ikkxa.png",
+    "technologies": "Nodejs | Reactjs | Nextjs",
+    "description": "Developed the frontend of Ikkxa, a modern e-commerce platform focused on abayas, catering to customers in Saudi Arabia and the UAE. Built using Next.js, the site features multi-language support (Arabic & English), secure payment integration, and a responsive, user-friendly interface tailored for the regional market.",
+    "linkName": "Ikkxa",
+    "deployed": "https://www.ikkxa.com/",
+    "bgcolor": "#29cbe0",
+    "id": "3"
   }
 ]
