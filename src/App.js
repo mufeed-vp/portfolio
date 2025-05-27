@@ -4,9 +4,9 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 function App() {
   const personalDetails = {
     name: "Mufeed V P",
-    location: "Kochi, India",
+    location: "Kerala, India",
     currentLocation: "Dubai",
-    email: "mufeedvp93@gmail.com.com",
+    email: "mufeedpeedikayil@gmail.com",
     availability: "Open for work",
     contactNumber: "+971 555292844",
     brand:
