@@ -31,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./build # or ./build (depends on your project)
+          path: ./build  # Make sure this path is correct based on your project's build output
 
   deploy:
     needs: build
@@ -43,4 +43,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  
