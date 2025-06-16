@@ -29,7 +29,7 @@ const NavLinks = () => {
           Contact
         </NavLink>
         <a
-          href="/projectImages/Mufeed_VP_Resume.pdf"
+          href="/Mufeed_VP_Resume.pdf"
           target="_blank"
           download
           onClick={() => setIsMenuOpen(false)}
