@@ -28,6 +28,24 @@ const NavLinks = () => {
         <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
           Contact
         </NavLink>
+        <a
+          href="/projectImages/Mufeed_VP_Resume.pdf"
+          target="_blank"
+          download
+          onClick={() => setIsMenuOpen(false)}
+          className="nav-link"
+        >
+           <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 4v12m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Resume
+        </a>
       </nav>
     </>
   );
