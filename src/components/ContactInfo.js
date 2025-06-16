@@ -14,7 +14,6 @@ const ContactInfo = ({ name, email, location, contactNumber, currentLocation }) 
 
   const [contactEmail, setContactEmail] = useState("");
   const [contactMessage, setContactMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,7 +32,6 @@ const ContactInfo = ({ name, email, location, contactNumber, currentLocation }) 
     )
     .then(
       (result) => {
-        setSubmitted(true);
         setContactEmail("");
         setContactMessage("");
         toast.success("Message sent successfully!");
