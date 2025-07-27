@@ -16,7 +16,7 @@ const SocialIcons = () => {
       <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/mufeed-vp/" target="_blank">
         <i className="fa-brands fa-linkedin" aria-hidden="true" title="Mufeed V P' LinkedIn Profile"></i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.instagram.com/mf_mufi/" target="_blank">
+      <a className="icon" style={styles.icon} href="https://www.instagram.com/mf_mufi/" target="_blank" >
         <i className="fa-brands fa-instagram" aria-hidden="true" title="Mufeed V P' Instagram Profile"></i>
       </a>
       {/* <a className="icon" style={styles.icon} href="https://twitter.com/mdyeates">
